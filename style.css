@@ -64,3 +64,12 @@ nav a.active {
     font-size: 4rem;
     display: none;
 }
+
+section {
+    position: relative; /* absolute -> relative */
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers the full screen */
+    padding: 10rem 9% 2rem;
+    background: var(--bg-color);
+    overflow: auto; /* Allow scrolling if needed */
+}
