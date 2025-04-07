@@ -46,3 +46,11 @@ header {
     color: var(--white-color);
     font-weight: 700;
 }
+
+nav a {
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .5s;
+}
