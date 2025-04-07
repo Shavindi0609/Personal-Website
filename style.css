@@ -9,3 +9,12 @@
     outline: none;
     font-family: "Poppins", sans-serif;
 }
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --main-color: #7cf03d;
+    --white-color: #fff;
+    --disabled-color: #fff3;
+}
+
