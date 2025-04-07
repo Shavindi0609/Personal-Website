@@ -54,3 +54,8 @@ nav a {
     margin-left: 3.5rem;
     transition: .5s;
 }
+
+nav a:hover,
+nav a.active {
+    color: var(--main-color);
+}
