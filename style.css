@@ -59,3 +59,8 @@ nav a:hover,
 nav a.active {
     color: var(--main-color);
 }
+
+#menu-icon {
+    font-size: 4rem;
+    display: none;
+}
