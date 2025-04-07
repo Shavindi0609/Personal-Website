@@ -73,3 +73,9 @@ section {
     background: var(--bg-color);
     overflow: auto; /* Allow scrolling if needed */
 }
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
