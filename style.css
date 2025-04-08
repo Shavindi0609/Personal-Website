@@ -162,3 +162,9 @@ section {
     font-weight: 500;
     transition: .5s;
 }
+
+.btn:hover {
+    background: transparent;
+    color: var(--main-color);
+    box-shadow: none;
+}
