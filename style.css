@@ -183,3 +183,9 @@ section {
     margin: 0.8rem;
     transition: .5s;
 }
+
+.home-detail .btn-sci .sci a:hover {
+    background: var(--main-color);
+    color:var(--bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
