@@ -311,3 +311,9 @@ section {
 .services-box .icon a:hover i {
     transform: rotate(180deg);
 }
+
+.services-box h3 {
+    font-size: 3rem;
+    margin: .5rem 0 2rem;
+    transition: .5s;
+}
