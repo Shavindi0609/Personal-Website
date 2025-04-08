@@ -119,3 +119,14 @@ section {
         display: none;
     }
 }
+
+.home-detail h2 span::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: .2rem solid var(--main-color);
+    color: var(--main-color);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 4s linear infinite;
+}
