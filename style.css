@@ -130,3 +130,12 @@ section {
     overflow: hidden;
     animation: fill-text 4s linear infinite;
 }
+
+@keyframes fill-text {
+    10%, 100% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 100%;
+    }
+}
