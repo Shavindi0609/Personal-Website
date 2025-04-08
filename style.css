@@ -321,3 +321,7 @@ section {
 .services-box:hover h3 {
     color: var(--main-color);
 }
+
+.services-box p {
+    font-size: 1.6rem;
+}
