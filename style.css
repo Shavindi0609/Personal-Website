@@ -168,3 +168,18 @@ section {
     color: var(--main-color);
     box-shadow: none;
 }
+
+.home-detail .btn-sci .sci {
+    margin-left: 2rem;
+}
+
+.home-detail .btn-sci .sci a {
+    display: inline-flex;
+    padding: .8rem;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 0.8rem;
+    transition: .5s;
+}
