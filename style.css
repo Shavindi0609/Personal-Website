@@ -307,3 +307,7 @@ section {
     color: var(--bg-color);
     transform: rotate(225deg);
 }
+
+.services-box .icon a:hover i {
+    transform: rotate(180deg);
+}
