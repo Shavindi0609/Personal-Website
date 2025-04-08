@@ -256,3 +256,10 @@ section {
 .heading span {
     color: var(--main-color);
 }
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
