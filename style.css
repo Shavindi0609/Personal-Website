@@ -189,3 +189,15 @@ section {
     color:var(--bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
+
+.home-img .img-box {
+    position: relative;
+    width: 32vw;
+    height: 32vw;
+    border-radius: 50%;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
