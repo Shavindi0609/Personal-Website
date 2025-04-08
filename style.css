@@ -89,3 +89,27 @@ section {
     font-size: 3.2rem;
     margin-top: -1rem;
 }
+
+.home-detail h2 span {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .07rem var(--main-color);
+    animation: display-text 16s linear infinite;
+}
+
+.home-detail h2 .coder {
+    animation-delay: 0s;
+}
+
+.home-detail h2 .youtuber {
+    animation-delay: -4s;
+}
+
+.home-detail h2 .blogger {
+    animation-delay: -8s;
+}
+
+.home-detail h2 .designer {
+    animation-delay: -12s;
+}
