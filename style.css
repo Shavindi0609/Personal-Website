@@ -713,3 +713,8 @@ section {
     height: 26rem;
     resize: none;
 }
+
+.contact-box .field-box input:focus,
+.contact-box .field-box textarea:focus {
+    border-color: var(--main-color);
+}
