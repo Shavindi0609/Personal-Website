@@ -644,3 +644,7 @@ section {
     grid-template-columns: 1fr 1.3fr;
     gap: 3rem;
 }
+
+.contact-container .contact-box:first-child {
+    align-items: center;
+}
