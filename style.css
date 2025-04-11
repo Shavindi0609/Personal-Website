@@ -725,3 +725,30 @@ section {
 }
 
 /*Responsive Section*/
+
+/* Small Mobile (320px) */
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 50%; /* Reduce base font size */
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .home-img .img-box {
+        width: 70vw;
+        height: 70vw;
+    }
+}
