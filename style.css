@@ -767,3 +767,18 @@ section {
         font-size: 1.4rem;
     }
 }
+
+/* Large Mobile (425px) */
+@media screen and (max-width: 425px) {
+    nav a {
+        font-size: 1.8rem;
+    }
+
+    .home-detail h2 {
+        font-size: 2.8rem;
+    }
+
+    .home-detail p {
+        font-size: 1.5rem;
+    }
+}
