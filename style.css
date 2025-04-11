@@ -486,3 +486,9 @@ section {
 .resume-detail.about .resume-item p{
     color: var(--main-color);
 }
+
+.resume-detail.about .resume-item p span {
+    color: var(--white-color);
+    margin-left: 1rem;
+    font-size: 1.8rem;
+}
