@@ -373,3 +373,7 @@ section {
     display: block;
 }
 
+.resume-box .heading {
+    font-size: 3.5rem;
+    text-align: left;
+}
