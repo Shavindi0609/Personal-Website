@@ -782,3 +782,25 @@ section {
         font-size: 1.5rem;
     }
 }
+
+/* Tablet (768px) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 1.5rem 5%;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-img .img-box {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
