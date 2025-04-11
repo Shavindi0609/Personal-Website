@@ -451,3 +451,23 @@ section {
 .resume-detail.skills .resume-item:hover i {
     color: var(--main-color);
 }
+
+
+.resume-detail.skills .resume-item span {
+    position: absolute;
+    top: -20%;
+    background: var(--white-color);
+    color: var(--bg-color);
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(.9);
+    transition: .2s;
+}
+
+.resume-detail.skills .resume-item:hover span {
+    top: -10%;
+    opacity: 1;
+    transform: scale(1);
+}
