@@ -471,3 +471,8 @@ section {
     opacity: 1;
     transform: scale(1);
 }
+
+.resume-detail.about .resume-list {
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
