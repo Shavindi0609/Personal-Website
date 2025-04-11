@@ -572,3 +572,9 @@ section {
     opacity: 0;
     transition: .2s;
 }
+
+.portfolio-box .live-github a:hover span {
+    top: -70%;
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
