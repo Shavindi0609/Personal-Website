@@ -648,3 +648,7 @@ section {
 .contact-container .contact-box:first-child {
     align-items: center;
 }
+
+.contact-box h2 {
+    font-size: 4.5rem;
+}
