@@ -342,3 +342,7 @@ section {
 .resume-box p {
     font-size: 1.6rem;
 }
+
+.resume-box .desc {
+    margin: 2rem 0 2.5rem;
+}
