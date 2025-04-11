@@ -691,3 +691,9 @@ section {
 .contact-box .heading {
     font-size: 3.5rem;
 }
+
+.contact-box .field-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
