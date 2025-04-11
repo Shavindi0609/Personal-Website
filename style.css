@@ -544,3 +544,15 @@ section {
     background: var(--second-bg-color);
     transition: .5s;
 }
+
+.portfolio-box .live-github a:hover {
+    color: var(--main-color);
+}
+
+.portfolio-box .live-github a:first-child {
+    margin-right: 1.5rem;
+}
+
+.portfolio-box .live-github a:first-child i {
+    transform: rotate(135deg);
+}
