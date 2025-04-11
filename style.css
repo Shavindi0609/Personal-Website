@@ -510,3 +510,10 @@ section {
 .portfolio-detail.active {
     display: block;
 }
+
+.portfolio-box .numb {
+    font-size: 8rem;
+    -webkit-text-stroke: .07rem var(--white-color);
+    color: transparent;
+    line-height: 1;
+}
