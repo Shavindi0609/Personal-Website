@@ -442,3 +442,8 @@ section {
     align-items: center;
     height: auto;
 }
+
+.resume-detail.skills .resume-item i {
+    font-size: 8.5rem;
+    transition: .5s;
+}
