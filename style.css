@@ -635,3 +635,12 @@ section {
 .portfolio-box .navigation .arrow-right {
     margin-left: 1.5rem;
 }
+
+/*Contact Section*/
+
+.contact-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 3rem;
+}
