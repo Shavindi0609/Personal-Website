@@ -687,3 +687,7 @@ section {
     border-radius: 1rem;
     text-align: center;
 }
+
+.contact-box .heading {
+    font-size: 3.5rem;
+}
