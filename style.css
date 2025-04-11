@@ -815,3 +815,14 @@ section {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* Large Laptop (1440px) */
+@media screen and (max-width: 1440px) {
+    header {
+        padding: 2rem 8%;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
