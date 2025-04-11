@@ -476,3 +476,9 @@ section {
     height: auto;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
+
+.resume-detail.about .resume-item {
+    height: auto;
+    padding: 0 0 .5rem;
+    background: transparent;
+}
