@@ -517,3 +517,8 @@ section {
     color: transparent;
     line-height: 1;
 }
+
+.portfolio-box h3 {
+    font-size: 3.5rem;
+    margin: .8rem 0 2rem;
+}
