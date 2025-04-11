@@ -436,3 +436,9 @@ section {
     height: auto;
     overflow: visible;
 }
+
+.resume-detail.skills .resume-item {
+    position: relative;
+    align-items: center;
+    height: auto;
+}
