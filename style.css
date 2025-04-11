@@ -430,3 +430,9 @@ section {
     border-radius: 50%;
     margin-left: -2rem;
 }
+
+.resume-detail.skills .resume-list {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    height: auto;
+    overflow: visible;
+}
