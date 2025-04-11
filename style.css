@@ -522,3 +522,7 @@ section {
     font-size: 3.5rem;
     margin: .8rem 0 2rem;
 }
+
+.portfolio-box p {
+    font-size: 1.6rem;
+}
