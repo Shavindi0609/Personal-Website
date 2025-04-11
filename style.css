@@ -752,3 +752,18 @@ section {
         height: 70vw;
     }
 }
+
+/* Medium Mobile (375px) */
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home-detail h1 {
+        font-size: 4rem;
+    }
+
+    .home-detail p {
+        font-size: 1.4rem;
+    }
+}
