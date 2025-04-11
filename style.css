@@ -325,3 +325,12 @@ section {
 .services-box p {
     font-size: 1.6rem;
 }
+
+/*Resume Section*/
+
+.resume-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5rem;
+}
