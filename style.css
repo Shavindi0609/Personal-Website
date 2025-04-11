@@ -606,3 +606,8 @@ section {
     object-fit: cover;
     border-radius: 1rem;
 }
+
+.portfolio-box .navigation {
+    text-align: right;
+    margin-top: 2rem;
+}
