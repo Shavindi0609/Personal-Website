@@ -395,6 +395,11 @@ section {
     border-radius: 1rem;
 }
 
+.resume-list:hover::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+
 .resume-list .resume-item {
     background: var(--second-bg-color);
     border-radius: .8rem;
