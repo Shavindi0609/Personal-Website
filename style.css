@@ -482,3 +482,7 @@ section {
     padding: 0 0 .5rem;
     background: transparent;
 }
+
+.resume-detail.about .resume-item p{
+    color: var(--main-color);
+}
