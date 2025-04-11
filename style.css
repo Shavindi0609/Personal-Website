@@ -622,3 +622,7 @@ section {
     color: var(--main-color);
     cursor: pointer;
 }
+
+.portfolio-box .navigation button.disabled {
+    border-color: var(--second-bg-color);
+}
