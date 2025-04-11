@@ -804,3 +804,14 @@ section {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* Laptop (1024px) */
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 2rem 6%;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
