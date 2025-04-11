@@ -533,3 +533,14 @@ section {
     border-bottom: .1rem solid var(--white-color);
     padding-bottom: 2rem;
 }
+
+.portfolio-box .live-github a {
+    position: relative;
+    display: inline-flex;
+    padding: 1.3rem;
+    font-size: 3rem;
+    color: var(--white-color);
+    border-radius: 50%;
+    background: var(--second-bg-color);
+    transition: .5s;
+}
