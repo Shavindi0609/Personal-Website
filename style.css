@@ -413,3 +413,9 @@ section {
     font-size: 2.2rem;
     margin-bottom: 1rem;
 }
+
+.resume-item .company {
+    position: relative;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
