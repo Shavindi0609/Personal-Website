@@ -447,3 +447,7 @@ section {
     font-size: 8.5rem;
     transition: .5s;
 }
+
+.resume-detail.skills .resume-item:hover i {
+    color: var(--main-color);
+}
