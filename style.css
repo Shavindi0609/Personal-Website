@@ -502,3 +502,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
 }
+
+.portfolio-detail {
+    display: none;
+}
