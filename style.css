@@ -585,3 +585,12 @@ section {
     border-radius: 1rem;
     overflow: hidden;
 }
+
+.portfolio-carousel .img-slide {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    gap: 2rem;
+    height: inherit;
+    transition: .5s;
+}
