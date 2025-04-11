@@ -419,3 +419,14 @@ section {
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
+
+.resume-item .company::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: .5rem;
+    background: var(--main-color);
+    border-radius: 50%;
+    margin-left: -2rem;
+}
