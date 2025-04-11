@@ -506,3 +506,7 @@ section {
 .portfolio-detail {
     display: none;
 }
+
+.portfolio-detail.active {
+    display: block;
+}
