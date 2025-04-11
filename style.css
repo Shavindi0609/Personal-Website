@@ -656,3 +656,7 @@ section {
 .contact-box p {
     font-size: 1.6rem;
 }
+
+.contact-box .desc {
+    margin: 1.5rem 0 2.5rem;
+}
