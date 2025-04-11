@@ -707,3 +707,9 @@ section {
     font-size: 1.6rem;
     color: var(--white-color);
 }
+
+.contact-box .field-box textarea {
+    grid-column: 1 / -1;
+    height: 26rem;
+    resize: none;
+}
