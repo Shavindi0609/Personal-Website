@@ -25,6 +25,7 @@ logoLink.addEventListener('click', () => {
     }
 });
 
+// resume
 const resumeBtns = document.querySelectorAll('.resume-btn');
 
 resumeBtns.forEach((btn, idx) => {
@@ -42,6 +43,7 @@ resumeBtns.forEach((btn, idx) => {
     });
 });
 
+// project
 const arrowRight = document.querySelector('.portfolio-box .navigation .arrow-right');
 const arrowLeft = document.querySelector('.portfolio-box .navigation .arrow-left');
 
