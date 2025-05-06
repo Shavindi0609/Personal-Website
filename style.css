@@ -56,6 +56,21 @@ nav a {
     position: relative;
 }
 
+nav a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
 nav a:hover,
 nav a.active {
     color: var(--main-color);
