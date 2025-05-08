@@ -11,12 +11,13 @@
 }
 
 :root {
-    --bg-color:rgb(254,215,173);
-    --second-bg-color: white;
-    --main-color: rgb(109,67, 0);
-    --black-color: black;
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --main-color: #7cf03d;
+    --white-color: #fff;
     --disabled-color: #fff3;
 }
+
 
 
 html {
@@ -24,7 +25,7 @@ html {
 }
 
 body {
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 header {
@@ -33,7 +34,7 @@ header {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: linear-gradient(to right, rgb(255,255,255), rgb(254,215,173));
+    background: var(--bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,15 +44,15 @@ header {
 
 .logo {
     font-size: 3rem;
-    color: var(--black-color);
+    color: var(--white-color);
     font-weight: 700;
 }
 
 nav a {
     font-size: 2rem;
-    color: var(--black-color);
-    font-weight: 500;
-    margin-left: 3.5rem;
+    color: var(--white-color);
+    font-weight: 400;
+    margin-left: 2.9rem;
     transition: .5s;
     position: relative;
 }
@@ -86,7 +87,7 @@ section {
     width: 100%;
     min-height: 100vh; /* Ensure it covers the full screen */
     padding: 10rem 9% 2rem;
-    background: linear-gradient(to right, rgb(255,255,255), rgb(254,215,173));
+    background: var(--bg-color);
     overflow: auto; /* Allow scrolling if needed */
 }
 
@@ -96,6 +97,9 @@ section {
     gap: 5rem;
 }
 
+.home-detail {
+    /*margin-left: 90px;*/
+}
 .home-detail h1 {
     font-size: clamp(3.5rem, 45vw, 5.8rem);
     font-family: "Times New Roman" , "serif";
@@ -416,7 +420,7 @@ section {
     background: var(--second-bg-color);
     border: .2rem solid var(--second-bg-color);
     font-size: 1.6rem;
-    color: var(--black-color);
+    color: var(--white-color);
     font-weight: 500;
     margin-bottom: 2rem;
     border-radius: .8rem;
@@ -499,46 +503,6 @@ section {
 /*    margin-left: -2rem;*/
 /*}*/
 
-.resume-detail.skills .resume-list {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    height: auto;
-    overflow: visible;
-}
-
-.resume-detail.skills .resume-item {
-    position: relative;
-    align-items: center;
-    height: auto;
-}
-
-.resume-detail.skills .resume-item i {
-    font-size: 8.5rem;
-    transition: .5s;
-}
-
-.resume-detail.skills .resume-item:hover i {
-    color: var(--main-color);
-}
-
-
-.resume-detail.skills .resume-item span {
-    position: absolute;
-    top: -20%;
-    background: var(--black-color);
-    color: var(--bg-color);
-    font-size: 1.6rem;
-    padding: .5rem 1rem;
-    pointer-events: none;
-    opacity: 0;
-    transform: scale(.9);
-    transition: .2s;
-}
-
-.resume-detail.skills .resume-item:hover span {
-    top: -10%;
-    opacity: 1;
-    transform: scale(1);
-}
 
 .resume-detail.about .resume-list {
     height: auto;
@@ -556,9 +520,85 @@ section {
 }
 
 .resume-detail.about .resume-item p span {
-    color: var(--black-color);
+    color: var(--white-color);
     margin-left: 1rem;
     font-size: 1.8rem;
+}
+
+/*skills section*/
+
+.skills-container {
+    margin-top: 30px;
+    gap: 5rem;
+}
+
+.skills-box p {
+    font-size: 1.6rem;
+}
+
+.skills-box .desc {
+    margin: 2rem 0 2.5rem;
+    font-size: 1.8rem; /* මෙතන value එක වැඩි කරලා විශාල font එකක් දිය හැක */
+    line-height: 1.8;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(23rem, 1fr));
+    gap: 2rem;
+    overflow: visible;
+}
+
+.skills-list .skills-item {
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    padding: 3rem 2.5rem;
+    height: calc((45rem - 2rem) / 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.skills-detail.skills .skill-list {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    height: auto;
+    overflow: visible;
+}
+
+.skills-detail.skills .skills-item {
+    position: relative;
+    align-items: center;
+    height: auto;
+}
+
+.skills-detail.skills .skills-item i {
+    font-size: 8.5rem;
+    transition: .5s;
+}
+
+.skills-detail.skills .skills-item:hover i {
+    color: var(--main-color);
+}
+
+
+.skills-detail.skills .skills-item span {
+    position: absolute;
+    top: -20%;
+    background: var(--white-color);
+    color: var(--bg-color);
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(.9);
+    transition: .2s;
+}
+
+.skills-detail.skills .skills-item:hover span {
+    top: -10%;
+    opacity: 1;
+    transform: scale(1);
 }
 
 /*Assignments Section*/
@@ -610,7 +650,7 @@ section {
     margin-top: 20px;
     margin-left: 130px;
     display: inline-flex;
-    background: var(--black-color);
+    background: var(--white-color);
     border-radius: 50%;
     padding: 1rem;
     transition: .5s;
@@ -700,7 +740,7 @@ section {
 
 .portfolio-box .numb {
     font-size: 8rem;
-    -webkit-text-stroke: .07rem var(--black-color);
+    -webkit-text-stroke: .07rem var(--white-color);
     color: transparent;
     line-height: 1;
 }
@@ -717,7 +757,7 @@ section {
 .portfolio-box .tech {
     margin: 2rem 0;
     color: var(--main-color);
-    border-bottom: .1rem solid var(--black-color);
+    border-bottom: .1rem solid var(--white-color);
     padding-bottom: 2rem;
 }
 
@@ -728,7 +768,7 @@ section {
     font-size: 3rem;
     color: var(--second-bg-color);
     border-radius: 50%;
-    background: var(--black-color);
+    background: var(--white-color);
     transition: .5s;
 }
 
@@ -755,7 +795,7 @@ section {
     padding: .5rem 1rem;
     border-radius: .6rem;
     pointer-events: none;
-    background: var(--black-color);
+    background: var(--white-color);
     color: var(--bg-color);
     opacity: 0;
     transition: .2s;
@@ -888,7 +928,7 @@ section {
     border: .15rem solid var(--bg-color);
     border-radius: .6rem;
     font-size: 1.6rem;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .contact-box .field-box textarea {
