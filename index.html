@@ -17,8 +17,9 @@
         <nav>
             <a href="#" class="active">Home</a>
             <a href="#services">Services</a>
-            <a href="#resume">Resume</a>
+            <a href="#about">Resume</a>
             <a href="#skills">Skills</a>
+
             <a href="assignments.html">Assignments</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
@@ -155,181 +156,234 @@
 
     </div>
 </section>
-<!--Resume Section-->
 
-<section class="resume" id="resume">
-    <div class="resume-container">
-
-            <div class="resume-box">
-            <div class="resume-detail education active">
-                <h2 class="heading">My <span>Education</span></h2>
-<!--                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
-<!--                    Aliquid autem beatae cumque cupiditate, ea earum, neque officia quae-->
-<!--                    quaerat qui quisquam rerum sequi sit ullam unde velit veniam vitae,-->
-<!--                    voluptates!</p>-->
-
-                <div class="resume-list">
-
-                    <div class="resume-item">
-                        <p class="year">2024-2025</p>
-                        <h3>GDSE Program</h3>
-                        <p class="company">IJSE</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque, </p>
-                    </div>
-
-                    <div class="resume-item">
-                        <p class="year">2024</p>
-                        <h3>Programming Course</h3>
-                        <p class="company">Online Course</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque, !</p>
-                    </div>
-
-                    <div class="resume-item">
-                        <p class="year">2022</p>
-                        <h3>A/L Maths with ICT</h3>
-                        <p class="company">Eheliyagoda Central Collage</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque,</p>
-                    </div>
-
-                    <div class="resume-item">
-                        <p class="year">2019</p>
-                        <h3>O/L with ICT</h3>
-                        <p class="company">Eheliyagoda Central Collage</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque,!</p>
-                    </div>
-                </div>
+<!--About Section-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1" >
+                <img src="assets/images/WhatsApp%20Image%202025-05-06%20at%2017.52.30_569ea860.jpg">
             </div>
 
-<!--            <div class="resume-detail skills">-->
-<!--                <h2 class="heading">My <span>Skills</span></h2>-->
-<!--                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
-<!--                    Aliquid autem beatae cumque cupiditate, ea earum, neque officia quae-->
-<!--                    quaerat qui quisquam rerum sequi sit ullam unde velit veniam vitae,-->
-<!--                    voluptates!</p>-->
+
+            <div class="about-col-2" >
+                <h2 class="heading">About <span>Me</span></h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, at aut dicta dolore enim esse et fugiat itaque libero neque nisi officia omnis quasi quia quo quos recusandae suscipit voluptatibus!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('about-me')">About Me</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="about-me">
+                    <ul>
+                        <li><span>Name</span><br>Shavindi</li>
+                        <li><span>Age</span><br>22 Years</li>
+                        <li><span>City</span><br>Eheliyagoda</li>
+                        <li><span>Freelanze</span><br>Available</li>
+                        <li><span>Languages</span><br>English,Sinhala</li>
+                        <li><span>Experience</span><br>1 Year</li>
+                        <li><span>Works</span><br>Full Stack Developer</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>GDSE Program(IJSE)</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus dicta eius et exercitationem fugit illum inventore ipsa iste magni nam necessitatibus nesciunt nobis pariatur, quaerat quo sed vero, voluptate?</li>
+                        <li><span>Programming Course(Online)</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cum, eius eligendi facilis maiores modi natus nesciunt pariatur, praesentium quidem quis repudiandae veritatis, voluptates! Eligendi illum magni numquam porro unde.</li>
+                        <li><span>A/L Maths with ICT(2022)</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem corporis exercitationem neque quaerat ratione repudiandae sequi vero. Aut enim esse harum illum maiores necessitatibus numquam possimus reiciendis tenetur voluptates.</li>
+                        <li><span>O/L with ICT(2019)</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid cum cumque deleniti distinctio dolor doloremque dolores, dolorum et hic ipsam, minus nam possimus quaerat quasi quod soluta vero voluptas?</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025 - current</span><br>Full Stack Development Trainning at IJSE Institute</li>
+                        <li><span>2025 - current</span><br>Full Stack Development Trainning at IJSE Institute</li>
+                        <li><span>2025 - current</span><br>Full Stack Development Trainning at IJSE Institute</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--Resume Section-->
+
+<!--<section class="resume" id="resume">-->
+<!--    <div class="resume-container">-->
+
+<!--            <div class="resume-box">-->
+<!--            <div class="resume-detail education active">-->
+<!--                <h2 class="heading">My <span>Education</span></h2>-->
+<!--&lt;!&ndash;                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.&ndash;&gt;-->
+<!--&lt;!&ndash;                    Aliquid autem beatae cumque cupiditate, ea earum, neque officia quae&ndash;&gt;-->
+<!--&lt;!&ndash;                    quaerat qui quisquam rerum sequi sit ullam unde velit veniam vitae,&ndash;&gt;-->
+<!--&lt;!&ndash;                    voluptates!</p>&ndash;&gt;-->
+
 <!--                <div class="resume-list">-->
+
 <!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxl-html5'></i>-->
-<!--                        <span>HTML5</span>-->
+<!--                        <p class="year">2024-2025</p>-->
+<!--                        <h3>GDSE Program</h3>-->
+<!--                        <p class="company">IJSE</p>-->
+<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque, </p>-->
 <!--                    </div>-->
+
 <!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxl-java' ></i>-->
-<!--                        <span>Java</span>-->
+<!--                        <p class="year">2024</p>-->
+<!--                        <h3>Programming Course</h3>-->
+<!--                        <p class="company">Online Course</p>-->
+<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque, !</p>-->
 <!--                    </div>-->
+
 <!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxl-css3' ></i>-->
-<!--                        <span>CSS</span>-->
+<!--                        <p class="year">2022</p>-->
+<!--                        <h3>A/L Maths with ICT</h3>-->
+<!--                        <p class="company">Eheliyagoda Central Collage</p>-->
+<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque,</p>-->
 <!--                    </div>-->
+
 <!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxl-javascript' ></i>-->
-<!--                        <span>Javascript</span>-->
-<!--                    </div>-->
-<!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxs-data' ></i>-->
-<!--                        <span>Mysql</span>-->
-<!--                    </div>-->
-<!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxl-react'></i>-->
-<!--                        <span>React.js</span>-->
-<!--                    </div>-->
-<!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxl-nodejs'></i>-->
-<!--                        <span>Node.js</span>-->
-<!--                    </div>-->
-<!--                    <div class="resume-item">-->
-<!--                        <i class='bx bxl-mongodb' ></i>-->
-<!--                        <span>MongoDB</span>-->
+<!--                        <p class="year">2019</p>-->
+<!--                        <h3>O/L with ICT</h3>-->
+<!--                        <p class="company">Eheliyagoda Central Collage</p>-->
+<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto blanditiis consectetur dignissimos facere harum itaque,!</p>-->
 <!--                    </div>-->
 <!--                </div>-->
 <!--            </div>-->
 
-            <div class="resume-detail about">
-                <h2 class="heading">About <span>Me</span></h2>
-<!--                <p class="desc">"I’m a passionate Full Stack Developer-->
-<!--                    dedicated to building smart, scalable, and user-focused-->
-<!--                    web solutions."</p>-->
-                <div class="resume-list">
-                    <div class="resume-item">
-                        <p>Name <span>Shavindi R.Aloka</span></p>
-                    </div>
+<!--&lt;!&ndash;            <div class="resume-detail skills">&ndash;&gt;-->
+<!--&lt;!&ndash;                <h2 class="heading">My <span>Skills</span></h2>&ndash;&gt;-->
+<!--&lt;!&ndash;                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.&ndash;&gt;-->
+<!--&lt;!&ndash;                    Aliquid autem beatae cumque cupiditate, ea earum, neque officia quae&ndash;&gt;-->
+<!--&lt;!&ndash;                    quaerat qui quisquam rerum sequi sit ullam unde velit veniam vitae,&ndash;&gt;-->
+<!--&lt;!&ndash;                    voluptates!</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="resume-list">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxl-html5'></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>HTML5</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxl-java' ></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>Java</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxl-css3' ></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>CSS</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxl-javascript' ></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>Javascript</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxs-data' ></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>Mysql</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxl-react'></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>React.js</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxl-nodejs'></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>Node.js</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="resume-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <i class='bx bxl-mongodb' ></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>MongoDB</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
 
-                    <div class="resume-item">
-                        <p>Gender <span>Female</span></p>
-                    </div>
+<!--            <div class="resume-detail about">-->
+<!--                <h2 class="heading">About <span>Me</span></h2>-->
+<!--&lt;!&ndash;                <p class="desc">"I’m a passionate Full Stack Developer&ndash;&gt;-->
+<!--&lt;!&ndash;                    dedicated to building smart, scalable, and user-focused&ndash;&gt;-->
+<!--&lt;!&ndash;                    web solutions."</p>&ndash;&gt;-->
+<!--                <div class="resume-list">-->
+<!--                    <div class="resume-item">-->
+<!--                        <p>Name <span>Shavindi R.Aloka</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Age <span>22 Years old</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Gender <span>Female</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>City <span>Rathnapura</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Age <span>22 Years old</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Nationality <span>Sri Lankan</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>City <span>Rathnapura</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Full Time <span>Available</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Nationality <span>Sri Lankan</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Freelance <span>Available</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Full Time <span>Available</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Phone <span>(+94) 74 005 505 59</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Freelance <span>Available</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Email <span>shavindialoka69</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Phone <span>(+94) 74 005 505 59</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Languages <span>Sinhala , English</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Email <span>shavindialoka69</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Experience <span>2 Years</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Languages <span>Sinhala , English</span></p>-->
+<!--                    </div>-->
 
-                    <div class="resume-item">
-                        <p>Works <span>Full Stack Developer</span></p>
-                    </div>
+<!--                    <div class="resume-item">-->
+<!--                        <p>Experience <span>2 Years</span></p>-->
+<!--                    </div>-->
+
+<!--                    <div class="resume-item">-->
+<!--                        <p>Works <span>Full Stack Developer</span></p>-->
+<!--                    </div>-->
 
 
-                </div>
-            </div>
+<!--                </div>-->
+<!--            </div>-->
 
-        </div>
+<!--        </div>-->
 
-        <div class="resume-box">
+<!--        <div class="resume-box">-->
 
-            <!--            <button class="resume-btn active">Experience</button>-->
-            <button class="resume-btn active">Education</button>
-<!--            <button class="resume-btn">Skills</button>-->
-            <button class="resume-btn">About Me</button>
-            <br>
-            <br>
-            <br>
+<!--            &lt;!&ndash;            <button class="resume-btn active">Experience</button>&ndash;&gt;-->
+<!--            <button class="resume-btn active">Education</button>-->
+<!--&lt;!&ndash;            <button class="resume-btn">Skills</button>&ndash;&gt;-->
+<!--            <button class="resume-btn">About Me</button>-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <br>-->
 
-            <h2>Why Hire Me?</h2>
-            <p class="desc">💡 "As a Full Stack Developer, I bridge the gap between design and functionality — delivering complete, reliable, and scalable solutions from front-end to back-end." <br> <br>
-                🔹 Passionate Problem Solver<br>
-                🔹 Versatile Tech Stack<br>
-                🔹 User-Centered Design<br>
-                🔹 Team Player with a Growth Mindset<br>
-                🔹 From Concept to Deployment<br>
-            </p>
+<!--            <h2>Why Hire Me?</h2>-->
+<!--            <p class="desc">💡 "As a Full Stack Developer, I bridge the gap between design and functionality — delivering complete, reliable, and scalable solutions from front-end to back-end." <br> <br>-->
+<!--                🔹 Passionate Problem Solver<br>-->
+<!--                🔹 Versatile Tech Stack<br>-->
+<!--                🔹 User-Centered Design<br>-->
+<!--                🔹 Team Player with a Growth Mindset<br>-->
+<!--                🔹 From Concept to Deployment<br>-->
+<!--            </p>-->
 
-            <p>"Explore my professional terminologies to better understand my knowledge and skills."</p>
+<!--            <p>"Explore my professional terminologies to better understand my knowledge and skills."</p>-->
 
-            <div>
-            <a href="#terminologies" class="btn">View Terminologies</a>
-            </div>
+<!--            <div>-->
+<!--            <a href="#terminologies" class="btn">View Terminologies</a>-->
+<!--            </div>-->
 
-        </div>
-    </div>
-</section>
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 <!--skil section-->
 
@@ -445,22 +499,32 @@
                 <div class="img-slide">
                     <div class="img-item">
                         <img src="assets/images/gem1.png" alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
                     </div>
 
                     <div class="img-item">
                         <img src="assets/images/gem2.png" alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
                     </div>
 
                     <div class="img-item">
                         <img src="assets/images/gem3.png" alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
                     </div>
 
                     <div class="img-item">
                         <img src="assets/images/gem4.png" alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
                     </div>
 
                     <div class="img-item">
                         <img src="assets/images/gem2.png" alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
+                        <img src="assets/images/gem2.png"  alt="gem image">
                     </div>
 
                 </div>
@@ -474,12 +538,14 @@
     </div>
 </section>
 
+
+
+
 <!--    Contact Section-->
 <section class="contact" id="contact">
     <div class="contact-container">
         <div class="contact-box">
             <h2>Let's Work Together</h2>
-            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorum expedita ratione sed sint. Aliquid blanditiis corporis dicta dolorem impedit labore libero natus odit placeat possimus quas quis, soluta voluptatibus.</p>
             <div class="contact-detail">
                 <i class='bx bxs-phone-call'></i>
                 <div class="detail">
@@ -504,6 +570,10 @@
                 </div>
             </div>
 
+            <div class="terminologies">
+                    <p>"Explore my professional terminologies to better understand my knowledge and skills."</p>
+                    <a href="assignments.html" class="btn-terminologies">View Terminologies</a>
+            </div>
         </div>
 
         <div class="contact-box">

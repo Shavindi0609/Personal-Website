@@ -26,22 +26,37 @@ logoLink.addEventListener('click', () => {
 });
 
 // resume
-const resumeBtns = document.querySelectorAll('.resume-btn');
 
-resumeBtns.forEach((btn, idx) => {
-    btn.addEventListener('click', () => {
-        const resumeDetails = document.querySelectorAll('.resume-detail');
-        resumeBtns.forEach(btn => {
-            btn.classList.remove('active');
-        });
-        btn.classList.add('active');
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for (tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
 
-        resumeDetails.forEach(detail => {
-            detail.classList.remove('active');
-        });
-        resumeDetails[idx].classList.add('active');
-    });
-});
+    for (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+// const resumeBtns = document.querySelectorAll('.resume-btn');
+//
+// resumeBtns.forEach((btn, idx) => {
+//     btn.addEventListener('click', () => {
+//         const resumeDetails = document.querySelectorAll('.resume-detail');
+//         resumeBtns.forEach(btn => {
+//             btn.classList.remove('active');
+//         });
+//         btn.classList.add('active');
+//
+//         resumeDetails.forEach(detail => {
+//             detail.classList.remove('active');
+//         });
+//         resumeDetails[idx].classList.add('active');
+//     });
+// });
 
 // project
 const arrowRight = document.querySelector('.portfolio-box .navigation .arrow-right');
