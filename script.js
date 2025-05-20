@@ -1,10 +1,21 @@
 const navLinks = document.querySelectorAll('header nav a');
 const logoLink = document.querySelector('.logo');
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('header nav');
+
+menuIcon.addEventListener('click', ()=>{
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+});
 
 const activePage = () => {
     navLinks.forEach(link => {
         link.classList.remove('active');
     });
+
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+
 }
 
 navLinks.forEach((link, idx) => {
@@ -25,7 +36,7 @@ logoLink.addEventListener('click', () => {
     }
 });
 
-// resume
+// About Me
 
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
@@ -41,22 +52,6 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab")
 }
-// const resumeBtns = document.querySelectorAll('.resume-btn');
-//
-// resumeBtns.forEach((btn, idx) => {
-//     btn.addEventListener('click', () => {
-//         const resumeDetails = document.querySelectorAll('.resume-detail');
-//         resumeBtns.forEach(btn => {
-//             btn.classList.remove('active');
-//         });
-//         btn.classList.add('active');
-//
-//         resumeDetails.forEach(detail => {
-//             detail.classList.remove('active');
-//         });
-//         resumeDetails[idx].classList.add('active');
-//     });
-// });
 
 // project
 const arrowRight = document.querySelector('.portfolio-box .navigation .arrow-right');
